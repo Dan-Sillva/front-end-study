@@ -1,0 +1,91 @@
+/* #hw {
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+    font-family: 'Rubik Iso', cursive;
+} */
+
+html {
+    font-size: 18px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
+    font-family: "Open Sans", sans-serif; /* este deve ser o nome da fonte que você obteve no Google Fonts */
+
+    background-color: #f0e7db;
+}
+
+body {
+    width: 600px;
+    margin: 100px auto;
+    background-color: #fffaf4;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00101f;
+    text-shadow: 3px 3px 4px rgb(131, 131, 131);
+
+    font-size: 60px;
+    text-align: center;
+}
+
+#subtitle {
+    /* background-color: #455497; */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: -20px 0 -16px 0;
+}
+
+#alert-user-button {
+    width: 90px;
+    border-radius: 6px;
+    border: none;
+    padding: 2px;
+
+    background-color: #414553;
+    color: #f1eeea;
+
+    font-size: 12px;
+}
+
+#alert-user-button:hover {
+    background-color: #4f5364;
+    color: #f0e7db;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+
+    width: 460px;
+    height: 306px;
+}
+
+#div4 button {
+    display: block;
+    margin: auto;
+
+    padding: 14px 80px;
+    background-color: #414553;
+    color: #f0e7db;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 20px;
+}
+
+#div4 button:hover {
+    background-color: #4f5364;
+    color: #f1eeea;
+}
